@@ -1,63 +1,92 @@
 # BAR Dynamics and Decentralized Trust Systems
 
+<p align="center">
+  <img src="./assets/markov_trust_flow.svg" width="100%" />
+</p>
+
 This repository explores the modeling of trust, coordination, and resilience in decentralized systems under adversarial conditions. It builds on research presented at the RSA Conference (RSAC) Security Scholar Program and serves as a foundation for ongoing work in simulation, formal methods, and distributed systems analysis.
+
+---
 
 ## Overview
 
 Modern distributed systems operate in environments where participants are not uniformly rational or cooperative. This work studies systems composed of:
-* Byzantine agents (arbitrary or adversarial behavior)
-* Altruistic agents (protocol-following, system-supporting behavior)
-* Rational agents (utility-maximizing behavior)
 
-Together, these form BAR (Byzantine–Altruistic–Rational) systems, which provide a more realistic model of decentralized coordination than classical assumptions of fully rational agents.
+- **Byzantine agents** — arbitrary or adversarial behavior  
+- **Altruistic agents** — protocol-following, system-supporting behavior  
+- **Rational agents** — utility-maximizing behavior  
+
+Together, these form **BAR (Byzantine–Altruistic–Rational) systems**, which provide a more realistic model of decentralized coordination than classical assumptions of fully rational agents.
 
 This repository investigates how trust, reputation, and coordination emerge in such systems using:
-* Probabilistic modeling
-* Markovian dynamics
-* Game-theoretic frameworks
-* Simulation-based analysis
+
+- Probabilistic modeling  
+- Markovian dynamics  
+- Game-theoretic frameworks  
+- Simulation-based analysis  
+
+---
 
 ## On Equilibrium: Extension vs. Refinement
 
 A key clarification in this work:
 
-The BAR framework is not a refinement of Nash Equilibrium in the traditional game-theoretic sense (i.e., it does not restrict the equilibrium set through stronger solution concepts like subgame perfection or trembling-hand perfection).
+The BAR framework is **not a refinement of Nash Equilibrium in the traditional game-theoretic sense** (i.e., it does not restrict the equilibrium set through stronger solution concepts such as subgame perfection or trembling-hand perfection).
 
-Instead, it is better understood as an extension of equilibrium modeling:
-* It expands the agent model beyond purely rational actors
-* It incorporates heterogeneous behavioral types (Byzantine, altruistic, rational)
-* It reflects real-world distributed systems where adversarial and cooperative behaviors coexist
+Instead, it is better understood as an **extension of equilibrium modeling**:
 
-In this sense, it can be viewed as a __systems-level refinement__—making equilibrium analysis more realistic and robust—rather than a formal refinement within classical game theory.
+- It expands the agent model beyond purely rational actors  
+- It incorporates heterogeneous behavioral types (Byzantine, altruistic, rational)  
+- It reflects real-world distributed systems where adversarial and cooperative behaviors coexist  
+
+In this sense, it can be viewed as a *systems-level refinement*—improving realism and robustness in equilibrium modeling—rather than a formal refinement within classical game theory.
+
+---
 
 ## Note on Prior Citations
 
-Earlier versions of this work referenced BAR-related results from a preprint. That work has since been formally published in Games and Economic Behavior.
+Earlier versions of this work referenced BAR-related results from a preprint. That work has since been formally published in *Games and Economic Behavior*.
 
-This repository reflects that updated status and treats BAR dynamics within a broader, evolving research context.
+This repository reflects that updated status and situates BAR dynamics within a broader, evolving research context.
 
-Repository Structure
-* docs/ — Research artifacts, including RSAC poster
-* simulations/ — Python-based models (planned)
-* formal/ — Experiments in Lean4 and Haskell (in progress)
-* assets/ — Diagrams and visual materials
+---
+
+## Repository Structure
+- docs/ Research artifacts (including RSAC poster)
+- simulations/ Python-based models (planned)
+- formal/ Lean4 and Haskell explorations (in progress)
+- assets/ Diagrams and visual materials
+
+
+---
 
 ## Research Direction
+
 This repository serves as a staging ground for:
-* Simulation of trust and reputation dynamics in decentralized systems
-* Exploration of equilibrium behavior under adversarial conditions
-* Connections between game theory, distributed systems, and formal methods
-* Early-stage work in formal verification and type-theoretic modeling
+
+- Simulation of trust and reputation dynamics in decentralized systems  
+- Exploration of equilibrium behavior under adversarial conditions  
+- Connections between game theory, distributed systems, and formal methods  
+- Early-stage work in formal verification and type-theoretic modeling  
+
+---
 
 ## Status
-This is an active and evolving research repository.
+
+This is an **active and evolving research repository**.  
 Some components are exploratory and under development.
 
-## Future Work
-1. Markov-based reputation system simulations (Python)
-2. Formal modeling of coordination dynamics (Lean4)
-3. Functional representations of system dynamics (Haskell)
-4. Integration of simulation results with theoretical frameworks
+---
 
-### Author
+## Future Work
+
+- Markov-based reputation system simulations (Python)  
+- Formal modeling of coordination dynamics (Lean4)  
+- Functional representations of system dynamics (Haskell)  
+- Integration of simulation results with theoretical frameworks  
+
+---
+
+## Author
+
 Ramamurthy Sundar
