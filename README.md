@@ -45,9 +45,15 @@ In this sense, it can be viewed as a *systems-level refinement*—improving real
 
 ## Note on Prior Citations
 
-Earlier versions of this work referenced BAR-related results from a preprint. That work has since been formally published in *Games and Economic Behavior*.
+Earlier versions of this work cited BAR-related results from a preprint (Reynouard et al., 2024). Those results have since appeared in a peer‑reviewed publication in *Games and Economic Behavior* (Gorelkina et al., 2025).
 
-This repository reflects that updated status and situates BAR dynamics within a broader, evolving research context.
+This repository now reflects the updated status of the research and situates BAR dynamics within the broader, evolving literature.
+
+**Published version:**  
+Gorelkina, O., Laraki, R., & Reynouard, M. (2025). BAR Nash equilibrium and application to blockchain design. *Games and Economic Behavior*. https://doi.org/10.1016/j.geb.2025.09.008
+
+**Preprint version:**  
+Reynouard, M., Laraki, R., & Gorelkina, O. (2024, January). BAR Nash equilibrium and application to blockchain design. *HAL Open Science*. https://doi.org/10.48550/arXiv.2401.16856
 
 ---
 
